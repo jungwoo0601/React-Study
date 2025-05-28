@@ -172,9 +172,39 @@ push => git push
 - 비교할 대상 파일 선택(ins.js)
 - student.js <-> ins.js 파일의 차이점 쉽게 확인 가능
 
-## 3.2 참고 사이트
+# 4. 수업 진도
+
+## 1주차 (2025.05.27 화 ~ 2025.05.30 금, 4일)
+
+### 1일차(2025.05.27 화)
+
+#### 오전(3시간)
+
+- 🧑‍💻 [개발 환경 구축](./README.md#2-개발-환경-구축)
+- 🔊 [1장 리액트 빌드업](./workspace-ins/ch01-buildup)
+  - 🔊 [1. 웹 개발의 변천사](./workspace-ins/ch01-buildup#1%EC%9E%A5-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%B9%8C%EB%93%9C%EC%97%85)
+  - 🔊 [2. 리액트 개발에 자주 사용하는 자바스크립트 문법](./workspace-ins/ch01-buildup#2-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%97%90-%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AC%B8%EB%B2%95)
+
+#### 오후(3시간)
+
+- 🧑‍💻 01 전통적인 방식의 Todo List 테스트(서버에서 완성된 HTML 응답)
+  - 🧑‍💻 [01 Todo List](https://todo.fesp.shop)
+- 🧑‍💻 02 SPA(Single Page Application)
+  - 🧑‍💻 Todo List 작성(HTML + vanillaJS)
+    - 🧑‍💻 [01 목록 조회](./workspace-ins/ch01-buildup/todolist/01/index.html)
+      - workspace/ch01-buildup/todolist/sample 폴더 복사해서 01 폴더 생성
+    - 🧑‍💻 [02 등록](./workspace-ins/ch01-buildup/todolist/02/index.html)
+      - workspace/ch01-buildup/todolist/01 폴더 todolist/복사해서 02 폴더 생성
+    - 🧑‍💻 [03 수정](./workspace-ins/ch01-buildup/todolist/03/index.html)
+      - workspace/ch01-buildup/todolist/02 폴더 복사해서 03 폴더 생성
+
+# 5. 참고 사이트
 
 ### 온라인 코드 편집기(HTML, CSS, JS)
+
+- CodePen: <https://codepen.io>
+
+## 온라인 코드 편집기(HTML, CSS, JS)
 
 - CodePen: <https://codepen.io>
 
@@ -183,7 +213,16 @@ push => git push
 - Codesandbox: <https://codesandbox.io>
 - Stackblitz: <https://stackblitz.com>
 
+## 웹 기반 React 개발
+
+- Codesandbox: <https://codesandbox.io>
+- Stackblitz: <https://stackblitz.com>
+
 ### 바벨 REPL
+
+- <https://babeljs.io/repl>
+
+## 바벨 REPL
 
 - <https://babeljs.io/repl>
 
@@ -191,7 +230,15 @@ push => git push
 
 - <https://ko.react.dev>
 
+## React 공식 문서
+
+- <https://ko.react.dev>
+
 ### JSX 변환기 (HTML을 JSX로 변환)
+
+- <https://transform.tools/html-to-jsx>
+
+## JSX 변환기 (HTML을 JSX로 변환)
 
 - <https://transform.tools/html-to-jsx>
 
@@ -199,7 +246,15 @@ push => git push
 
 - <https://immerjs.github.io/immer>
 
+## 객체 불변성 라이브러리 immer
+
+- <https://immerjs.github.io/immer>
+
 ### props의 타입 검증을 위한 PropTypes
+
+- <https://www.npmjs.com/package/prop-types>
+
+## props의 타입 검증을 위한 PropTypes
 
 - <https://www.npmjs.com/package/prop-types>
 
@@ -207,7 +262,15 @@ push => git push
 
 - <https://react-hook-form.com>
 
+## Form 입력값 검증을 위한 react-hook-form
+
+- <https://react-hook-form.com>
+
 ### 정규표현식 테스트
+
+- <https://regexr.com>
+
+## 정규표현식 테스트
 
 - <https://regexr.com>
 
@@ -215,7 +278,15 @@ push => git push
 
 - <https://react.vlpt.us>
 
+## 초보자를 위한 리액트
+
+- <https://react.vlpt.us>
+
 ### Recoil
+
+- <https://recoiljs.org/ko>
+
+## Recoil
 
 - <https://recoiljs.org/ko>
 
@@ -223,7 +294,15 @@ push => git push
 
 - <https://docs.pmnd.rs/zustand>
 
+## Zustand
+
+- <https://docs.pmnd.rs/zustand>
+
 ### Redux (한국어)
+
+- <https://ko.redux.js.org>
+
+## Redux (한국어)
 
 - <https://ko.redux.js.org>
 
@@ -231,7 +310,15 @@ push => git push
 
 - <https://react-redux.js.org>
 
+## React Redux
+
+- <https://react-redux.js.org>
+
 ### Redux Toolkit
+
+- <https://redux-toolkit.js.org>
+
+## Redux Toolkit
 
 - <https://redux-toolkit.js.org>
 
@@ -243,7 +330,21 @@ push => git push
 - 다운로드: <https://www.postman.com/downloads>
 - 문서: <https://learning.postman.com/docs>
 
+## API Client
+
+### Postman
+
+- 홈페이지: <https://www.postman.com>
+- 다운로드: <https://www.postman.com/downloads>
+- 문서: <https://learning.postman.com/docs>
+
 #### Bruno
+
+- 홈페이지: <https://www.usebruno.com>
+- 다운로드: <https://www.usebruno.com/downloads>
+- 문서: <https://docs.usebruno.com/introduction>
+
+### Bruno
 
 - 홈페이지: <https://www.usebruno.com>
 - 다운로드: <https://www.usebruno.com/downloads>
