@@ -1,11 +1,9 @@
-function Header() {
-  console.log("\tHeader 호출됨");
+// 헤더 컴포넌트
+function Header(){
+  console.log('\tHeader 호출됨');
   return (
     <header>
-      <h1>02 Counter - React로 구현(JSX)</h1>
-      <p>
-        파일 경로: <span id="filepath"></span>
-      </p>
+      <h1>10 Button 컴포넌트에 Props 전달</h1>
     </header>
   );
 }
