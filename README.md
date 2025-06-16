@@ -213,13 +213,8 @@ push => git push
     - 🧑‍💻 [04 삭제, 완성](./workspace-ins/ch01-buildup/todolist/04/index.html)
       + workspace/ch01-buildup/todolist/03 폴더 복사해서 04 폴더 생성
     - 🧑‍💻 [05 데이터를 기반으로 화면 리렌더링](./workspace-ins/ch01-buildup/todolist/05/index.html)
-<<<<<<< HEAD
-      - workspace/ch01-buildup/todolist/04 폴더 복사해서 05 폴더 생성
-  - Counter(라이브리리 개발) 작성
-=======
       + workspace/ch01-buildup/todolist/04 폴더 복사해서 05 폴더 생성
   * Counter(라이브리리 개발) 작성
->>>>>>> d84fc1fe2aa338d4d721d33d0b24756c19fe7b8b
     - 🧑‍💻 [01 HTML + JS](./workspace-ins/ch01-buildup/counter/01/index.html)
       + workspace/ch01-buildup/counter/sample 폴더 복사해서 01 폴더 생성
     - 🧑‍💻 [02 HTML 대신 JS로 UI 구성](./workspace-ins/ch01-buildup/counter/02/index.html)
@@ -253,11 +248,7 @@ push => git push
   - Todo List 작성(vanillaJS + Lib)
     - 🧑‍💻 [06 Reaction.createElement() 사용해서 UI 구성](./workspace-ins/ch01-buildup/todolist/06/index.html)
     - 🧑‍💻 [07 UI 구성 요소별 각각의 함수로 분리(컴포넌트로 만들기)](./workspace-ins/ch01-buildup/todolist/07/index.html)
-<<<<<<< HEAD
-      - workspace/ch01-buildup/todolist/06 폴더 복사해서 07 폴더 생성
-=======
       + workspace/ch01-buildup/todolist/06 폴더 복사해서 07 폴더 생성 
->>>>>>> d84fc1fe2aa338d4d721d33d0b24756c19fe7b8b
 
 ### 4일차(2025.05.30 금)
 
@@ -277,18 +268,10 @@ push => git push
   - 🧑‍💻 [02 Counter - React로 구현(JSX)](./workspace-ins/ch01-buildup/react/02/index.html)
     + workspace/ch01-buildup/react/01 폴더 복사해서 workspace/ch01-buildup/react/02 폴더 생성
   - 🧑‍💻 [03 Todo List - React로 UI 구성(JSX)](./workspace-ins/ch01-buildup/react/03/index.html)
-<<<<<<< HEAD
-
-    - workspace/ch01-buildup/react/02 폴더 복사해서 03 폴더 생성
-
-### 5일차(2025.06.02 화)
-
-=======
     + workspace/ch01-buildup/react/02 폴더 복사해서 03 폴더 생성
 
 ## 2주차 (2025.06.02 월 ~ 2025.06.05 목, 3일)
 ### 5일차(2025.06.02 월)
->>>>>>> d84fc1fe2aa338d4d721d33d0b24756c19fe7b8b
 #### 오전(3시간)
 
 - 03 React
@@ -302,12 +285,6 @@ push => git push
 - 02 SPA(Single Page Application)
   - Counter(라이브리리 개발) 작성
     - 🧑‍💻 [08 컴포넌트를 모듈로 분리](./workspace-ins/ch01-buildup/counter/08/index.html)
-<<<<<<< HEAD
-      - workspace/ch01-buildup/counter/07 폴더 복사해서 08 폴더 생성
-  - Todo List 작성(vanillaJS + Lib)
-    - 🧑‍💻 [09 컴포넌트를 모듈로 분리](./workspace-ins/ch01-buildup/todolist/09/index.html)
-      - workspace/ch01-buildup/todolist/08 폴더 복사해서 09 폴더 생성
-=======
       + workspace/ch01-buildup/counter/07 폴더 복사해서 08 폴더 생성
   * Todo List 작성(vanillaJS + Lib)
     - 🧑‍💻 [09 컴포넌트를 모듈로 분리](./workspace-ins/ch01-buildup/todolist/09/index.html)
@@ -365,7 +342,6 @@ push => git push
     npm i
     npm run dev
     ```
->>>>>>> d84fc1fe2aa338d4d721d33d0b24756c19fe7b8b
 
 #### 오후(3시간)
 * 🔊 [4. JSX](./workspace-ins/ch02-start#4-jsx)
