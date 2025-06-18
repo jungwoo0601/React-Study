@@ -458,13 +458,13 @@ push => git push
 * 4장 리액트 훅
   * Custom Hook
     - 🧑‍💻 [09 customHook - 커스텀 훅 없이 fetch API 사용](./workspace-ins/ch12-app/todolist/09-fetch)
-    - 🧑‍💻 [10 customHook - useFatch, useAxios 커스텀 훅 사용](./workspace-ins/ch12-app/todolist/10-customFetch)
+    - 🧑‍💻 [10 customHook - useFatch, useAxios 커스텀 훅 사용](./workspace-ins/ch04-hooks/10-customFetch)
     
 ### 14일차(2025.06.17 화)
 #### 오전(3시간)
 * 4장 리액트 훅
   * Custom Hook
-    - 🧑‍💻 [10 customHook - useFatch, useAxios 커스텀 훅 사용](./workspace-ins/ch12-app/todolist/10-customFetch)
+    - 🧑‍💻 [10 customHook - useFatch, useAxios 커스텀 훅 사용](./workspace-ins/ch04-hooks/10-customFetch)
 
 #### 오후(3시간)
 * 🔊 [5장 리액트 라우터](./workspace-ins/ch05-router#5장-리액트-라우터)
