@@ -1,11 +1,17 @@
+import type { TodoItem } from "@pages/TodoInfo";
 import { Link } from "react-router";
 
-function TodoListItem() {
+interface TodoListItemProps {
+  item: TodoItem;
+  handleDelete: (_id: number) => void;
+}
+
+function TodoListItem({ item, handleDelete }: TodoListItemProps) {
   return (
     <li>
-      <span>1</span>
-      <Link to="/list/1">잠자기</Link>
-      <Link to="/list">삭제</Link>
+      <span>{ item._id }</span>
+      <Link to={`/list/${item._id}`}>{ item.done ? <s>{ item.title }</s> : item.title }</Link>
+      <button type="button" onClick={ () => handleDelete(item._id) }>삭제</button>
     </li>
   );
 }
