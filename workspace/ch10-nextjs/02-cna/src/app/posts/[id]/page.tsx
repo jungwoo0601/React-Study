@@ -1,15 +1,11 @@
 import { Metadata } from "next";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
 
   const data = {
-    title: `${id}번 게시물`,
-    content: "게시판 이용 수칙입니다.",
+    title: `${ id }번 게시물`,
+    content: '게시판 이용 수칙입니다.'
   };
 
   return {
@@ -23,29 +19,25 @@ export async function generateMetadata({
 export function generateStaticParams() {
   // 공지글에 대한 fetch 작업
   const posts = [
-    { id: "1", title: "1번 제목" },
-    { id: "2", slug: "2", sid: "3", title: "2번 제목" },
-    { id: "3", slug: "2", sid: "3", title: "4번 제목" },
+    { id: '1', title: '1번 제목' },
+    { id: '2', slug: '2', sid: '3', title: '2번 제목' },
+    { id: '3', slug: '2', sid: '3', title: '4번 제목' },
   ];
 
   return posts;
 }
 
-export default async function InfoPage({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
+export default async function InfoPage({ params }: { params: Promise<{ id: string }> }) {
   const pageParams = await params;
-
+  
   const res = await fetch(`http://localhost:3000/api/posts/${pageParams.id}`);
   const data = await res.json();
 
   return (
     <>
-      <h1>상세 조회 - {pageParams.id}번 게시물</h1>
-      <span>제목: {data.item.title}</span>
-      <p>내용: {data.item.content}</p>
+      <h1>상세 조회 - { pageParams.id }번 게시물</h1>
+      <span>제목: { data.item.title }</span>
+      <p>내용: { data.item.content }</p>
     </>
   );
 }
